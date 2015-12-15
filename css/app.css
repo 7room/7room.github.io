@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: gray;
+        font-size: 0.8rem;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 60px;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.fade-in {
+    width: 200px;
+    height: 200px;
+    -webkit-animation: fadein 1s linear forwards;
+    animation: fadein 1s linear forwards;
+}
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
